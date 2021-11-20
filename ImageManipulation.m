@@ -57,7 +57,7 @@ for file = files'
     
     [lengthY, lengthX] = size(cropped);
     
-    % Make the leaf extractions scare by adding a margin to the top and
+    % Make the leaf extractions square by adding a margin to the top and
     % below, or to the sides
     if lengthX > lengthY
         marginHeight = round((lengthX - lengthY)/2);
